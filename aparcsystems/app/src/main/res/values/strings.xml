@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aparcsystems App</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="connection_error">There was a problem with the connection!</string>
+    <string name="error">Error</string>
+    <string name="warning_dialog_accept">OK</string>
+    <string name="dialogtitle">Código de barra</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="enter">Enter</string>
+    <string name="try_again">Try again</string>
+    <string name="continue_label">Enter other citation</string>
+    <string name="dispute">Dispute</string>
+    <string name="pay">Pay</string>
+    <string name="choose_payment">Pay Now</string>
+    <string name="error_message">We couldn`t find your ticket. \n Please, check the barcode </string>
+    <string name="barcode_hint">Type your citation number</string>
+
+    <!--Pay Titles-->
+    <string name="card_information">ENTER YOUR CARD INFORMATION</string>
+    <string name="email">e-mail</string>
+    <string name="card_number">card number</string>
+    <string name="cvc">cvc</string>
+    <string name="payment_amount">Payment amount</string>
+    <string name="amount_paid">Paid amount</string>
+
+    <string name="date_hint">MM/YYYY</string>
+    <string name="date_picker_title">Set Expiration Date</string>
+
+    <!--Dispute Titles-->
+    <string name="personal_information">ENTER YOUR PERSONAL INFORMATION</string>
+    <string name="name">name</string>
+    <string name="lastname">lastname</string>
+    <string name="mobile">mobile</string>
+    <string name="reason_photos">REASONS &amp; PHOTOS</string>
+    <string name="still_dispute">The citation is still in dispute</string>
+    <string name="save_button_text">Save Photo</string>
+    <string name="take_photo">Attach photo</string>
+
+    <!--Home Titles-->
+    <string name="toolbar_title">PARKTORIA</string>
+    <string name="home_title">Pay your tickets in the easiest way!</string>
+    <string name="manually_input_button">Enter Ticket</string>
+    <string name="scan_input_button">Scan Ticket</string>
+
+
+    <!--Show Multa Titles-->
+    <string name="date_of_infraction">Date of infraction</string>
+    <string name="time_of_infraction">Time of infraction</string>
+    <string name="officer">Officer #</string>
+
+    <string name="license_number">License nº</string>
+    <string name="st_pr">St/Pr</string>
+    <string name="license_expiry">License Expiry</string>
+
+    <string name="vehicle_make">Vehicle make</string>
+    <string name="meter">Meter #</string>
+
+    <string name="infraction_location">Infraction location</string>
+
+    <string name="alleged_infraction">Alleged infraction</string>
+
+    <string name="comments">Comments</string>
+    <string name="empty_value">-</string>
+    <string name="amount_style">$%1$s</string>
+
+    <!--Scan Titles-->
+    <string name="scan">To scan your ticket align the barcode with the window</string>
+    <string name="enter_manually">Enter manually</string>
+
+    <!--Pick Camera or Gallery-->
+    <string name="gallery_or_camera_title">Upload Pictures Option</string>
+    <string name="camera_option">Camera</string>
+    <string name="gallery_option">Gallery</string>
+
+    <!-- Alert Message -->
+    <string name="remove_photo_message_alert">Are you sure that you want to remove this photo?</string>
+    <string name="title_alert">Warning</string>
+
+    <!-- Success message -->
+    <string name="success_dispute">Thank you! Your dispute was processed successfully.</string>
+    <string name="success_pay">Thank you! Your payment was processed successfully.</string>
+
+    <!-- Error message-->
+    <string name="scan_citation_number_error">This citation number is not valid. Please, try again</string>
+    <string name="manual_citation_number_error">We couldn\'t find your ticket. Please, check your citation number and try again</string>
+    <string name="citation_number_required">The citation number is required</string>
+    <string name="email_error">The email is required</string>
+    <string name="invalid_email_error">The email is invalid</string>
+    <string name="lastname_error">The lastname is required</string>
+    <string name="name_error">The name is required</string>
+    <string name="mobile_error">The mobile number is required</string>
+    <string name="date_error">The date is required</string>
+    <string name="cvc_error">The cvc is required</string>
+    <string name="card_number_error">The card number is required</string>
+    <string name="payment_error">Sorry, your payment was declined. Please, try again.</string>
+
+    <!--Validate Dispute-->
+    <string name="photo_or_comments_required">You have attach almost one photo or leave comments.</string>
+</resources>

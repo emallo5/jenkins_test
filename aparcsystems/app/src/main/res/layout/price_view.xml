@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/standard_background"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/amount_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7" style="@style/payment_style"
+        android:text="@string/payment_amount" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="0dp"
+        android:layout_weight="0.3" android:gravity="right"
+         style="@style/amount_style"
+        android:layout_height="wrap_content" android:text="" />
+
+</LinearLayout>
+

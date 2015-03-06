@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="button_wide">7dp</dimen>
+    <dimen name="button_height">5dp</dimen>
+
+    <dimen name="scan_padding">40dp</dimen>
+    <dimen name="big_padding">30dp</dimen>
+    <dimen name="medium_padding">20dp</dimen>
+    <dimen name="small_padding">15dp</dimen>
+
+    <dimen name="big_input_space">40dp</dimen>
+    <dimen name="small_input_space">20dp</dimen>
+    <dimen name="edit_text_margin">10dp</dimen>
+    <dimen name="drawable_padding">5dp</dimen>
+
+    <dimen name="price_size">20sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="standard_text_size">14sp</dimen>
+    <dimen name="small_text_size">13sp</dimen>
+    <dimen name="placeholder_size">18sp</dimen>
+
+</resources>

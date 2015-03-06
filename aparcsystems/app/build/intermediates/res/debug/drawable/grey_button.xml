@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" >
+        <layer-list>
+            <item >
+                <shape android:shape="rectangle" >
+                    <corners android:radius="3dp" />
+                    <solid android:color="@color/standard_button_grey_shadow" />
+                </shape>
+            </item>
+            <item android:bottom="2dp">
+                <shape>
+                    <corners android:radius="4dp" />
+                    <solid android:color="@color/standard_button_grey" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp" />
+
+            <solid android:color="@color/standard_button_grey_pressed" />
+        </shape>
+    </item>
+</selector><!-- From: file:/C:/Desarrollo/Proyectos/multas/aparcsystems/app/src/main/res/drawable/grey_button.xml -->

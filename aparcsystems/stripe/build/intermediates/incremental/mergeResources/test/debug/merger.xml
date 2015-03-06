@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\build\intermediates\bundles\debug\res"/></dataSet><dataSet config="main"><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\src\androidTest\res"/><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\build\generated\res\rs\test\debug"/><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\build\generated\res\generated\test\debug"/></dataSet><mergedItems/></merger>

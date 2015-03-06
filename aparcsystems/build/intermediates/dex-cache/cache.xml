@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Desarrollo\Proyectos\multas\aparcsystems\app\libs\pixlui-1-0-5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b42ea4a02c2464b2ad006ee0582c8d3608d433ca">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\pixlui-1-0-5-e52493121e0e2e8ae04e32f9b8557b4a00c3f28a.jar" />
+    </item>
+    <item
+        jar="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\classes-32f75624a82f6f0c784d0a350654e8a0f22b9ec4.jar" />
+    </item>
+    <item
+        jar="C:\Desarrollo\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-46de305e96837bca1731f344cda3c9a6e1a630ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\eventbus-2.4.0-74a3f541f574f149fbbe1c0b38e313123902a019.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-abc7e94501fdef9f1cdb2b30c02658fa28ffeda6.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.2.0\cb20062e14c523637b7643295418097b48cccec2\okhttp-urlconnection-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.2.0-c37858ddf5c2532472c81a2aecb0e6cb89e072c6.jar" />
+    </item>
+    <item
+        jar="C:\Desarrollo\Proyectos\multas\aparcsystems\app\libs\zbar.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a7b88ba1496a0b4af76069ad40dacd3897149e0">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\zbar-d0e5ee550483b3ba1fd5a047303757a391f5f3de.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\org.roboguice\roboguice\3.0.1\24e814f35d5cc28eaa7e9f07a50ea69deeb2b544\roboguice-3.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="24e814f35d5cc28eaa7e9f07a50ea69deeb2b544">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\roboguice-3.0.1-f5f468d80a75c44370923cbe2860da73d81aafa1.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\okhttp-2.2.0-4bed960fa305ac08d94ce3d5328dbaeb9237f81d.jar" />
+    </item>
+    <item
+        jar="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\exploded-aar\aparcsystems\stripe\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0578c1b6ba375852d981f8827ea272a3ebccdf6b">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\classes-64611c381bfa4c6ae4655b7b1f249e39036d733a.jar" />
+    </item>
+    <item
+        jar="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\classes-3a44ec026bdea6fd93d61a836e34899e936fe84f.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\okio-1.2.0-a5d5ebd5c817e19b893c6ff8cac576054fbb114c.jar" />
+    </item>
+    <item
+        jar="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\classes-14976fcf2ea88ae9a321fd3ef7530296dc629de3.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\gson-2.3.1-4fa437e4903cf58f1d84296ea88cd92ca927df0c.jar" />
+    </item>
+    <item
+        jar="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-eb051257ced6af45fcf4562382176d7f0f2e72bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\com.stripe\stripe-java\1.15.1\a93ce4be4cca79ab3b591eb77064fbe803d696a1\stripe-java-1.15.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a93ce4be4cca79ab3b591eb77064fbe803d696a1">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\stripe-java-1.15.1-70631f1deb68f297f50ee5213c819a7230918257.jar" />
+    </item>
+    <item
+        jar="C:\Users\emi91_000\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Desarrollo\Proyectos\multas\aparcsystems\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-a6d22daa4cb3961ea037fe5aca07bbf5c55e7ee8.jar" />
+    </item>
+
+</items>

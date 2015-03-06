@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/button_wide" android:bottom="@dimen/button_wide" android:drawable="@drawable/grey_button"></item>
+</layer-list><!-- From: file:/C:/Desarrollo/Proyectos/multas/aparcsystems/app/src/main/res/drawable/grey_button_wide.xml -->

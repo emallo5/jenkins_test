@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/white">
+
+    <!--Date Infraction Titles-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="3dp" android:paddingRight="@dimen/small_padding" android:paddingLeft="@dimen/small_padding" android:paddingTop="@dimen/small_padding" >
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title"
+            android:layout_height="wrap_content" android:text="@string/date_of_infraction" android:layout_weight="0.4" android:layout_marginRight="15dp" />
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title"
+            android:layout_height="wrap_content" android:text="@string/time_of_infraction" android:layout_weight="0.4" android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title"
+            android:layout_height="wrap_content" android:text="@string/officer" android:layout_weight="0.2" />
+    </LinearLayout>
+
+    <!--Date Infraction Values-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/small_padding" android:paddingRight="@dimen/small_padding"  android:paddingBottom="@dimen/small_padding" >
+        <TextView
+            android:id="@+id/date_of_infraction_value"
+            android:layout_width="0dp" style="@style/show_penalty_items_value"
+            android:layout_height="wrap_content"  android:layout_weight="0.4" android:layout_marginRight="15dp" />
+        <TextView
+            android:id="@+id/time_of_infraction_value"
+            android:layout_width="0dp" style="@style/show_penalty_items_value"
+            android:layout_height="wrap_content"  android:layout_weight="0.4" android:layout_marginRight="15dp" />
+
+        <TextView
+            android:id="@+id/officer_value"
+            android:layout_width="0dp" style="@style/show_penalty_items_value"
+            android:layout_height="wrap_content" android:layout_weight="0.2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" android:background="@color/show_penalty_separator_color"></View>
+
+    <!--Vehicle Titles-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="3dp" android:paddingRight="@dimen/small_padding" android:paddingLeft="@dimen/small_padding" android:paddingTop="@dimen/small_padding" >
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title" android:gravity="left"
+            android:layout_height="wrap_content" android:text="@string/license_number" android:layout_weight="0.4" android:layout_marginRight="15dp" />
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title" android:gravity="left"
+            android:layout_height="wrap_content" android:text="@string/st_pr" android:layout_weight="0.2" android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title" android:gravity="left"
+            android:layout_height="wrap_content" android:text="@string/license_expiry" android:layout_weight="0.4" />
+    </LinearLayout>
+
+    <!--Vehicle Values-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  android:paddingRight="@dimen/small_padding" android:paddingLeft="@dimen/small_padding" android:paddingBottom="@dimen/small_padding" >
+        <TextView
+            android:id="@+id/vehicle_license_number"
+            android:layout_width="0dp" style="@style/show_penalty_items_value_green" android:gravity="left"
+            android:layout_height="wrap_content" android:layout_weight="0.4" android:layout_marginRight="15dp" />
+        <TextView
+            android:id="@+id/vehicle_st_pr"
+            android:layout_width="0dp" style="@style/show_penalty_items_value" android:gravity="left"
+            android:layout_height="wrap_content"  android:layout_weight="0.2" android:layout_marginRight="15dp" />
+
+        <TextView
+            android:id="@+id/vehicle_license_expiry"
+            android:layout_width="0dp" style="@style/show_penalty_items_value" android:gravity="left"
+            android:layout_height="wrap_content"  android:layout_weight="0.4" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" android:background="@color/show_penalty_separator_color"></View>
+    <!--Vehicle Titles-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="3dp" android:paddingRight="@dimen/small_padding" android:paddingLeft="@dimen/small_padding" android:paddingTop="@dimen/small_padding" >
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title" android:gravity="left"
+            android:layout_height="wrap_content" android:text="@string/vehicle_make" android:layout_weight="0.6" android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="0dp" style="@style/show_penalty_items_title" android:gravity="left"
+            android:layout_height="wrap_content" android:text="@string/meter" android:layout_weight="0.4" />
+    </LinearLayout>
+
+    <!--Vehicle Values-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="@dimen/small_padding" android:paddingRight="@dimen/small_padding" android:paddingLeft="@dimen/small_padding"  >
+        <TextView
+            android:id="@+id/vehicle_make"
+            android:layout_width="0dp" style="@style/show_penalty_items_value" android:gravity="left"
+            android:layout_height="wrap_content" android:layout_weight="0.6" android:layout_marginRight="30dp" />
+
+        <TextView
+            android:id="@+id/vehicle_meter"
+            android:layout_width="0dp" style="@style/show_penalty_items_value" android:gravity="left"
+            android:layout_height="wrap_content" android:layout_weight="0.4" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" android:background="@color/show_penalty_separator_color"></View>
+
+    <TextView
+        android:layout_width="wrap_content" style="@style/show_penalty_items_title" android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="wrap_content" android:paddingTop="@dimen/small_padding" android:text="@string/infraction_location" />
+    <TextView
+        android:id="@+id/infraction_location"
+        android:layout_width="wrap_content" style="@style/show_penalty_items_value_green" android:layout_marginTop="3dp" android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="wrap_content"  android:paddingBottom="@dimen/small_padding" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" android:background="@color/show_penalty_separator_color"></View>
+
+    <!--Alleged infraction-->
+    <RelativeLayout
+        android:layout_width="match_parent" android:padding="@dimen/small_padding"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content" style="@style/show_penalty_items_title"
+            android:layout_height="wrap_content"  android:text="@string/alleged_infraction" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView
+            android:id="@+id/alleged_infraction_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/show_penalty_items_value"  />
+        <TextView
+            android:id="@+id/violation_description"
+            android:layout_width="wrap_content" style="@style/show_penalty_items_value" android:layout_height="wrap_content" android:layout_below="@+id/alleged_infraction_value" android:layout_marginTop="3dp" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" android:background="@color/show_penalty_separator_color"></View>
+
+    <TextView
+        android:layout_width="wrap_content" style="@style/show_penalty_items_title" android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="wrap_content" android:paddingTop="@dimen/small_padding" android:text="@string/comments" />
+    <TextView
+        android:id="@+id/comments1"
+        android:layout_width="wrap_content" style="@style/show_penalty_items_value" android:layout_marginTop="3dp" android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/comments2"
+        android:layout_width="wrap_content" style="@style/show_penalty_items_value" android:layout_marginTop="3dp" android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="wrap_content"  android:paddingTop="3dp" />
+    <TextView
+        android:id="@+id/comments3"
+        android:layout_width="wrap_content" style="@style/show_penalty_items_value" android:layout_marginTop="3dp" android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="wrap_content"  android:paddingTop="3dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" android:background="@color/show_penalty_separator_color" android:layout_marginTop="@dimen/small_padding"></View>
+    <LinearLayout
+        android:id="@+id/photos_attached_container"
+        android:layout_width="match_parent" android:visibility="gone" android:layout_centerInParent="true"
+        android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="right|center_vertical">
+        <TextView
+            android:id="@+id/photos_attached_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginRight="14dp" />
+        <com.aparcsystems.ui.view.RoundedImageView android:id="@+id/photos_attached_logo" android:src="@drawable/placeholder" android:layout_width="50dp" android:layout_height="50dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:src="@drawable/_arrowphoto" />
+    </LinearLayout>
+    <View
+        android:id="@+id/photos_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" android:background="@color/show_penalty_separator_color"></View>
+</LinearLayout>

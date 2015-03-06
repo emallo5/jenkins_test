@@ -1,0 +1,56 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/standard_background"
+    android:layout_width="match_parent"
+    android:scrollbars="none">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/still_dispute"
+            android:layout_width="match_parent"
+            style="@style/still_dispute"
+            android:padding="@dimen/small_padding"
+            android:layout_alignParentTop="true" android:visibility="gone"
+            android:layout_height="wrap_content" android:text="@string/still_dispute" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/penalty_details" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/paid_image"
+                android:layout_width="wrap_content" android:layout_centerInParent="true" android:visibility="gone"
+                android:layout_height="wrap_content" android:src="@drawable/paid" />
+        </RelativeLayout>
+
+        <include layout="@layout/price_view" android:layout_width="match_parent" android:id="@+id/price"
+             android:layout_margin="15dp"
+            android:layout_above="@+id/buttons" android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:orientation="horizontal" android:padding="@dimen/small_padding"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/dispute"
+                android:layout_width="0dp"
+                style="@style/grey_button"
+                android:layout_weight="0.5"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content" android:text="@string/dispute" />
+
+
+            <Button
+                android:id="@+id/choose_payment"
+                android:layout_width="0dp"
+                style="@style/green_button"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"  android:text="@string/choose_payment" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" >
+        <layer-list>
+            <item >
+                <shape>
+                    <corners android:radius="3dp" />
+                    <solid android:color="@color/standard_button_green_shadow" />
+                </shape>
+            </item>
+
+            <item android:bottom="2dp">
+                <shape>
+                    <corners android:radius="4dp" />
+                    <solid android:color="@color/standard_green" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+            <shape>
+                <corners android:radius="3dp" />
+
+                <solid android:color="@color/standard_button_green_pressed" />
+            </shape>
+    </item>
+</selector>

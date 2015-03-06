@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\res"/><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\build\generated\res\rs\release"/><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="C:\Desarrollo\Proyectos\multas\aparcsystems\stripe\src\release\res"/></dataSet><mergedItems/></merger>

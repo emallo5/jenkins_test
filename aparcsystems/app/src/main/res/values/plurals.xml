@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photo_attached">
+        <item quantity="one">1 photo attached</item>
+        <item quantity="other">%d photos attached</item>
+    </plurals>
+
+</resources>

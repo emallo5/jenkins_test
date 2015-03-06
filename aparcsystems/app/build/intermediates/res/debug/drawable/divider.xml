@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/standard_green" />
+</shape><!-- From: file:/C:/Desarrollo/Proyectos/multas/aparcsystems/app/src/main/res/drawable/divider.xml -->

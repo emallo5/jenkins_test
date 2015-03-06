@@ -1,0 +1,34 @@
+<com.aparcsystems.ui.view.LoadingLayout
+    android:id="@+id/loading_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout"
+        android:background="@color/standard_background"
+        android:padding="@dimen/big_padding"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/logo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/barcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/big_input_space"
+            android:layout_marginTop="@dimen/big_padding"
+            android:textSize="@dimen/placeholder_size"
+            android:singleLine="true"
+            android:hint="@string/barcode_hint" />
+
+        <Button
+            android:id="@+id/enter_bar_code"
+            android:layout_width="match_parent"
+            style="@style/green_button"
+            android:layout_height="wrap_content" android:text="@string/enter" />
+    </LinearLayout>
+</com.aparcsystems.ui.view.LoadingLayout>
+<!-- From: file:/C:/Desarrollo/Proyectos/multas/aparcsystems/app/src/main/res/layout/manual_input_fragment.xml -->
